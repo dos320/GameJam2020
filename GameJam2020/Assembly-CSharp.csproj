@@ -45,7 +45,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\scripts\backgroundLoop.cs" />
+     <Compile Include="Assets\scripts\CameraController.cs" />
+     <Compile Include="Assets\scripts\collision_handler.cs" />
+     <Compile Include="Assets\scripts\core.cs" />
      <Compile Include="Assets\scripts\gameHandler.cs" />
+     <Compile Include="Assets\scripts\handleHealthSliderChange.cs" />
+     <Compile Include="Assets\scripts\handleOxygenSliderChange.cs" />
+     <Compile Include="Assets\scripts\InteractiveHandler.cs" />
+     <Compile Include="Assets\scripts\OxygenDepleter.cs" />
      <Compile Include="Assets\scripts\player.cs" />
      <Compile Include="Assets\scripts\PlayerMovement.cs" />
  <Reference Include="Unity.Timeline.Editor">
